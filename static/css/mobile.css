@@ -1,0 +1,99 @@
+/* 600px */
+header .right_menu .lang{display: none;}
+header .right_menu .fam{margin-right: 70px;}
+.sub_menu_list>div{width: 28%; min-width:80px;}
+.sub_pg .tit_info{width: 70%;}
+.sub_pg .tit_info p b{font-size: 2vw;}
+
+.company .vision_area .value{margin-top: 20px;}
+.company .vision_area .value>li{display: block; text-align: center; padding: 20px 10px;}
+.company .vision_area .value>li .txt{width: 100%; font-size: 16px; margin: 7px 0;}
+.company .vision_area .value>li p{text-align: left;}
+.content .gall_list li .txt h4{line-height: 22px;}
+.content .gallery .video_txt h3{font-size: 20px;}
+/* ######################## SUB-BUSINESS-화학사업###################### */
+/* 연구소 */
+.business_area.research .rch_con .rch_info .rch_txt .txt_top{margin: 12px 0;}
+.business_area.research .rch_con .rch_info>div{width: 100%; float: none;}
+.business_area.research .rch_con .rch_info .rch_pic{float: none; padding-bottom: 38px;}
+.business_area.research .rch_con .rch_info .rch_pic img{width: 100%;}
+.business_area.research .rch_con .rch_info .rch_txt{margin-bottom:0;}
+
+.stock .stock_head table.tb_main tr.last td{padding: 0 8%;}
+.conflict .conflict_img{height: auto;}
+.conflict .conflict_img>div{position: static;  transform: none;}
+.conflict .conflict_img>div>img{width: 70%; max-width: 70%; margin: 10px 0;}
+.hr .recruit .recruit_list>li>a>div{width: 100%;}
+.hr .recruit .recruit_list>li h3{width: 70%;}
+.hr .recruit .recruit_list>li h3 span{margin-right: 5px;}
+/* 480px */
+@media all and (max-width:480px){
+    header{height: 60px;}
+    header>.inner{height: 60px;}
+    header>.inner{padding: 0;}
+    header .left_menu h2{margin: 0 15px;}
+    header .left_menu h2>a{height: 60px; line-height: 60px;}
+    header .left_menu h2 .mobile{height: 15px; padding-top: 20px;}
+    header .right_menu{padding-top: 14px;}
+    header .right_menu .fam h2>a{width: 87px; font-size: 10px;}
+    header .right_menu .list a{font-size: 9px;}
+    .trigger_menu{height: 60px;}
+    .banner .swiper-slide .main_con h2{font-size: 8vw;}
+    .banner .swiper-slide .main_con p{font-size: 3.5vw;}
+    .public .news_tit{font-size: 4vw;}
+    .who .left_con .tit_info h3{font-size: 11vw;}
+    /* ######################## SUB ###################### */
+    .sub_menu_list {min-width: 300px;}
+    .sub_menu_list h3>a::after{right: 1vw;}
+    .sub_menu_list a, .sub_menu_list .home, .sub_menu_list h3>a{font-size: 2vw; padding: 0 2vw; white-space:nowrap;}
+    .sub_pg .fix header{top:-60px;}
+    .sub_menu_list{top:60px;}
+    .sub_menu_list a,
+    .sub_menu_list .home,
+    .sub_menu_list h3>a{height: 32px; line-height: 32px; font-size: 2.5vw;}
+    .sub_menu_list ul{top:32px;}
+    .sub_menu_list a, .sub_menu_list .home, .sub_menu_list h3>a{padding: 0 2vw;}
+    .sub_menu_list ul>li>a::after{right: 6%;}
+    .company.history .history_list .history_area>ul>li .story{width: 100%;}
+    .company.history .history_list .history_area>ul>li .story::after{display: none;}
+    .company.history .history_list .history_area>ul>li>.year{font-size: 20px;}
+    .company.history .history_list .history_area>ul>li .story>li span{padding: 0 0 0 5px;}
+    .company.history .history_list .history_area>ul>li .story>li p{padding-left: 29px;}
+    .company.history .history_list .history_area>ul>li>*{float: none;}
+    .company.ci .ci_color em{font-size: 2.6vw;}
+    /* company 고객문의 */
+    .company.inquiry .box_list>li{width: 100%; margin: 1% 0;}
+    .et_con.card .user_info em{margin: 0 0.2%}
+    .hr .tit{padding-bottom: 10px;}
+    .hr .sub_tit{padding-bottom: 12px;}
+    .hr .person .txt p{padding-top: 0;}
+    .content .box_list{margin: 0;}
+    .content .box_list>li,.hr .hr_list.admin>li, .hr .hr_list.research>li{width: 100%; margin: 1% 0;}
+    .fix_tabs li>a{font-size: 1.5vw;}
+
+    /* active */
+    .fix_tabs.fix{top:34px;}
+    /* ######################## SUB-BUSINESS-전자산업###################### */
+    /* 사업소개 */
+    .business.electro .business_area .bs_plan ul>li{width: 100%; border: none; border-bottom: 1px solid #ddd; padding-bottom: 30px;}
+    .business.electro .business_area .bs_plan ul>li:last-child{border-bottom:none;}
+    /* 사업군 소개 */
+    .business.electro .business_area .bs_group>li{width: 48%;}
+    .hr .recruit .hr_list>li{height: 120px;}
+    .hr .recruit li>p{padding-top: 60px; font-size: 13px;}
+    .hr .hr_list>li::before{font-size: 45px;}
+    .hr .recruit .recruit_btn .btn{font-size: 3vw;}
+    .hr .recruit .recruit_list>li>a>div{width: 85%;}
+    .hr .recruit .recruit_list>li h3{position: relative; width: 60%;}
+    .hr .recruit .recruit_list>li .day{display: block; font-size: 12px; margin-top: 33px;}
+    .hr .recruit .recruit_list>li .more{position: relative; font-size: 0; height: 30px; width: 30px; border-radius:50%;}
+    .hr .recruit .recruit_list>li .more::before{content: '\f105'; font-family: fontawesome; position: absolute; left:50%; top:50%; transform: translate(-50%,-50%); font-size: 15px;}
+    .hr.job_info .inner{height: auto;}
+    .hr .accodian_tab {width: 100%;}
+    .hr .accodian .job_con {position: static; padding: 0;}
+    .hr .accodian .job_con .main_con{padding-right: 0;}
+
+    
+    
+
+}

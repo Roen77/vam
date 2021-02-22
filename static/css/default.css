@@ -1,0 +1,26 @@
+html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,menu,nav,section,article,aside,
+dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {margin:0;padding:0;}
+
+html, body{width:100%;}
+ul,ol,li{list-style:none;}
+table{border-spacing:0;border-collapse:collapse; width: 100%;}
+main,header,section,nav,footer,aside,article,figure{display:block;}
+img,fieldset{border:0;}
+a{text-decoration:none;}
+em, address { font-style:normal;}
+.hide,legend,hr,caption span {position:absolute; left:-3000%; font-size: 0;}
+b{font-weight: normal;}
+
+
+.clearfix::after { content:""; display:block; clear:both;}
+.clear {clear:both;}
+
+.skip{position: relative; z-index: 9999; left:0; width: 100%;}
+.skip>a { position: absolute;  left: 0; top:0; top:-50px; width: 100%; height: 40px; line-height: 40px; text-align: center; background: #000; color: #fff; transition: all 0.5s;}
+.skip>a:focus { top: 0;}
+
+
+
+
+
+
